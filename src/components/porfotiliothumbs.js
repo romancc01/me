@@ -2,7 +2,6 @@
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
-import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import imagen from'../static/images/cards/portfolio.jpg'
 import imagen1 from'../static/images/cards/SIPSEIV.png'
@@ -86,7 +85,7 @@ export default function RowAndColumnSpacing() {
         {proyectos.map((proyecto) => (
           <Grid item xs={4} key={proyecto.id} >
             <Item onClick={() => handleClick(proyecto.nombre)}  >
-              <img src={proyecto.ima} style={{ width: '100%', height: 'auto', objectFit: 'cover' }}></img>
+              <img src={proyecto.ima} style={{ width: '100%', height: 'auto', objectFit: 'cover' }} alt={proyecto.descripcion}></img>
             </Item>
           </Grid>
         ))}

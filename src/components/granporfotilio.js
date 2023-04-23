@@ -20,7 +20,7 @@ export default function RowAndColumnSpacing() {
       <Grid container  columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
         <Grid item xs={12}>
           <Item>
-            <img src={imagen}></img>
+            <img src={imagen} alt="Imagen de proyecto"></img>
           </Item>
         </Grid>
 
