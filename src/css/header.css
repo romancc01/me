@@ -1,5 +1,5 @@
 /* header.css */
 header {
-  height: 100px;
-  background-color: black; opacity: 0.09;
+  height: 80px;
+  background-color: rgba(255,255,255,0.5);;
 }
