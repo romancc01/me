@@ -1,6 +1,16 @@
 /* body.css */
 main {
-  height: auto;
+  /* height: auto; */
   background-color: white;
   padding: 0 2em 2em 2em;
+  flex: 1;
+}
+
+.app-container{
+  min-height: 100vh;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  width: 100vw;
+  /* position: relative; */
 }

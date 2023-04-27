@@ -1,7 +1,11 @@
 /* footer.css */
 footer {
   height: 100px;
-  background-color: black; opacity:.5;
+  background-color: #d6d6d6; opacity:.5;
   bottom: 0;
+  position:fixed;
+  text-align: center;
+  /* position: absolute; */
+  padding: 30px;
   width: 100%;
 }
